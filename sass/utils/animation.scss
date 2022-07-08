@@ -22,15 +22,18 @@
    
 }
 @keyframes slide-left {
-    0% {
-        -webkit-transform: translateX(0);
-        transform: translateX(0);
-    }
-    
-    100% {
-        -webkit-transform: translateX(-80px);
-        transform: translateX(-80px);
-    }
+     0% {
+    transform: translateY(0);
+  }
+  25% {
+    transform: translateY(0.5rem);
+  }
+  75% {
+    transform: translateY(-0.5rem);
+  }
+  100% {
+    transform: translateY(0);
+  }
 } 
 
 @-webkit-keyframes rotate-center {
