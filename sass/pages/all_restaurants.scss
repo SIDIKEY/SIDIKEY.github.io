@@ -999,3 +999,64 @@ a {
         }
     } 
 
+.m_header {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    flex: 1;
+  }
+
+  .m_title {
+    margin: 0;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
+
+  .m_description {
+    margin: 0;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
+
+  .m_price {
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding-left: 0.5rem;
+  }
+
+  .m_price_slide {
+    background-color: $color-tertiary;
+    margin: -1rem -5rem -1rem 1rem;
+    width: 4rem;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    transition-duration: 0.5s;
+  }
+
+  &:hover .m_price_slide {
+    margin-right: -1rem;
+  }
+
+  .m_price_rotate {
+    height: 1.6rem;
+    width: 1.6rem;
+    background-color: white;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    border-radius: 100px;
+    transform: rotate(180deg);
+    transition-duration: 0.5s;
+    color: $color-tertiary;
+
+  }
+
+  &:hover .m_price_rotate {
+    transform: rotate(0);
+  }
+
