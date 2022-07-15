@@ -243,7 +243,9 @@ footer .footer_size ul li p {
 }
 
 a {
-  color: white;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
 }
 
 @media screen and (min-width: 801px) {
