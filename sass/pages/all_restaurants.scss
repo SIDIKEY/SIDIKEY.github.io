@@ -17,21 +17,15 @@ a:-webkit-any-link {
     max-height: 32rem;
     width: 100%;
     object-fit: cover;
-    
-    
-  
     img{
         width: 100%;
         z-index: 1;
-
     }
 }
 
 
-img {
-   
+img { 
     position: relative;
-
 }
 body{
     background-color: #f6f6f6;
