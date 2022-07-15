@@ -7,11 +7,11 @@
 
 
 
-a {
-    
+a:-webkit-any-link {
+    color: -webkit-link;
     cursor: pointer;
     text-decoration: none;
-    color: #fff
+    color: white;
 }
 .BG{
     max-width: 100%;
