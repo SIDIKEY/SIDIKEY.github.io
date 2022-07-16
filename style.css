@@ -233,8 +233,9 @@ footer .footer_size ul {
 footer .footer_size ul li {
   display: flex;
 }
-footer .footer_size ul li .footer_link {
+footer .footer_size ul li a {
   text-decoration: none;
+  color: white;
 }
 footer .footer_size ul li p {
   position: absolute;
